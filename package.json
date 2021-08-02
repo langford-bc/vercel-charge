@@ -1,0 +1,18 @@
+{
+  "name": "charge-app",
+  "version": "1.0.0",
+  "description": "vercel-charge-project-example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@static/charge": "^1.7.0"
+  },
+  "scripts": {
+    "dev": "charge serve src",
+    "build": "charge build src public"
+  }
+}
